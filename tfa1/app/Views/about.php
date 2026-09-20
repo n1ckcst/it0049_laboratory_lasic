@@ -34,7 +34,7 @@
                 DEVELOPER
             </span>
 
-            <h2>202410346</h2>
+            <h2>Nick Shane Lasic</h2>
 
             <p>nslasic@fit.edu.ph</p>
 
