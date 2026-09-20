@@ -3,6 +3,8 @@
 
 <head>
     <meta charset="UTF-8">
+    <!-- Prevent search engine indexing -->
+    <meta name="robots" content="noindex, nofollow">
 
     <title><?= $title; ?> | POS System</title>
     <link rel="stylesheet" href="public/css/style.css">
@@ -10,54 +12,33 @@
 
 <body>
 
-<aside class="sidebar">
+    <aside class="sidebar">
 
-    <a href="<?= base_url('/'); ?>" class="sidebar-logo">
-        POS SYSTEM
-    </a>
+        <a href="<?= base_url('/'); ?>" class="sidebar-logo">
+            POS SYSTEM
+        </a>
 
-    <nav class="sidebar-links">
-        <a href="<?= base_url('/'); ?>">
-    <svg viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg">
-        <path
-            d="M1 6V15H6V11C6 9.89543 6.89543 9 8 9C9.10457 9 10 9.89543 10 11V15H15V6L8 0L1 6Z"
-            fill="currentColor">
-        </path>
-    </svg>
+        <nav class="sidebar-links">
+            <a href="<?= base_url('/'); ?>">
+                <img src="public/images/icons/home.svg" alt="">
+                </svg>
 
-    <span>Home</span>
-</a>
-        <a href="<?= base_url('users'); ?>">
+                <span>Home</span>
+            </a>
+            <a href="<?= base_url('users'); ?>">
+                <img src="public/images/icons/users.svg" alt="">
+                <span>Users</span>
+            </a>
+            <a href="<?= base_url('customers'); ?>">
+                <img src="public/images/icons/customers.svg" alt="">
+                <span>Customers</span>
+            </a>
+            <a href="<?= base_url('about'); ?>">
+                <img src="public/images/icons/about.svg" alt="">
+                <span>About</span>
+            </a>
+        </nav>
 
-    <svg viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg">
-        <path
-            d="M8 3.5C8 4.88071 6.88071 6 5.5 6C4.11929 6 3 4.88071 3 3.5C3 2.11929 4.11929 1 5.5 1C6.88071 1 8 2.11929 8 3.5Z"
-            fill="currentColor">
-        </path>
-
-        <path
-            d="M3 8C1.34315 8 0 9.34315 0 11V15H8V8H3Z"
-            fill="currentColor">
-        </path>
-
-        <path
-            d="M13 8H10V15H16V11C16 9.34315 14.6569 8 13 8Z"
-            fill="currentColor">
-        </path>
-
-        <path
-            d="M12 6C13.1046 6 14 5.10457 14 4C14 2.89543 13.1046 2 12 2C10.8954 2 10 2.89543 10 4C10 5.10457 10.8954 6 12 6Z"
-            fill="currentColor">
-        </path>
-    </svg>
-
-    <span>Users</span>
-
-</a>
-        <a href="<?= base_url('customers'); ?>">Customers</a>
-        <a href="<?= base_url('about'); ?>">About</a>
-    </nav>
-
-</aside>
+    </aside>
 
     <main class="main-content">

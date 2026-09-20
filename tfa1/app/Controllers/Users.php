@@ -44,7 +44,7 @@ class Users extends BaseController
                 ),
                 array(
                     'username' => 'm202602',
-                    'fullname' => 'Nico Lasic',
+                    'fullname' => 'Steph Santos',
                     'role' => 'Manager'
                 )
             )

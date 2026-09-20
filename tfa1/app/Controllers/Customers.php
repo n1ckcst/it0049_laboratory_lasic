@@ -13,8 +13,8 @@ class Customers extends BaseController
             'customers' => array(
 
                 array(
-                    'fullname' => 'Nick Shane Lasic',
-                    'email' => 'nslasic@fit.edu.ph',
+                    'fullname' => 'Juan Dela Crux',
+                    'email' => 'CruxJuanDe@gmail.com',
                     'phone_num' => '09123456789'
                 ),
 

@@ -608,11 +608,8 @@ body {
                 border-color 0.15s ease;
 }
 
-.sidebar-links svg {
+.sidebar-links img {
     width: 18px;
     height: 18px;
-
-    color: #ffffff;
-
     flex-shrink: 0;
 }
